@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Dec 17 18:21:57 2021
+Quartus II 64-Bit Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : shiyan15
+Top-level Entity Name : shiyan15
+Family : Cyclone II
+Device : EP2C5T144C8
+Timing Models : Final
+Total logic elements : 73 / 4,608 ( 2 % )
+    Total combinational functions : 73 / 4,608 ( 2 % )
+    Dedicated logic registers : 14 / 4,608 ( < 1 % )
+Total registers : 14
+Total pins : 19 / 89 ( 21 % )
+Total virtual pins : 0
+Total memory bits : 30,720 / 119,808 ( 26 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

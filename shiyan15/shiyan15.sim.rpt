@@ -1,0 +1,370 @@
+Simulator report for shiyan15
+Fri Dec 24 16:05:14 2021
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ALTSYNCRAM
+  6. |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ALTSYNCRAM
+  7. |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ALTSYNCRAM
+  8. Coverage Summary
+  9. Complete 1/0-Value Coverage
+ 10. Missing 1-Value Coverage
+ 11. Missing 0-Value Coverage
+ 12. Simulator INI Usage
+ 13. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 100.0 us     ;
+; Simulation Netlist Size     ; 159 nodes    ;
+; Simulation Coverage         ;      84.18 % ;
+; Total Number of Transitions ; 133067       ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On         ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++---------------------------------------------------------------------------------------------------+
+; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ALTSYNCRAM ;
++---------------------------------------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++-----------------------------------------------------------------------------------------------------+
+; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ALTSYNCRAM ;
++-----------------------------------------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++----------------------------------------------------------------------------------------------------+
+; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ALTSYNCRAM ;
++----------------------------------------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      84.18 % ;
+; Total nodes checked                                 ; 159          ;
+; Total output ports checked                          ; 158          ;
+; Total output ports with complete 1/0-value coverage ; 133          ;
+; Total output ports with no 1/0-value coverage       ; 25           ;
+; Total output ports with no 1-value coverage         ; 25           ;
+; Total output ports with no 0-value coverage         ; 25           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                             ; Output Port Name                                                                                ; Output Port Type ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+------------------+
+; |shiyan15|chengq[9]                                                                                   ; |shiyan15|chengq[9]                                                                             ; pin_out          ;
+; |shiyan15|chengq[8]                                                                                   ; |shiyan15|chengq[8]                                                                             ; pin_out          ;
+; |shiyan15|chengq[7]                                                                                   ; |shiyan15|chengq[7]                                                                             ; pin_out          ;
+; |shiyan15|chengq[6]                                                                                   ; |shiyan15|chengq[6]                                                                             ; pin_out          ;
+; |shiyan15|chengq[5]                                                                                   ; |shiyan15|chengq[5]                                                                             ; pin_out          ;
+; |shiyan15|chengq[4]                                                                                   ; |shiyan15|chengq[4]                                                                             ; pin_out          ;
+; |shiyan15|chengq[3]                                                                                   ; |shiyan15|chengq[3]                                                                             ; pin_out          ;
+; |shiyan15|chengq[2]                                                                                   ; |shiyan15|chengq[2]                                                                             ; pin_out          ;
+; |shiyan15|chengq[1]                                                                                   ; |shiyan15|chengq[1]                                                                             ; pin_out          ;
+; |shiyan15|chengq[0]                                                                                   ; |shiyan15|chengq[0]                                                                             ; pin_out          ;
+; |shiyan15|boxing[1]                                                                                   ; |shiyan15|boxing[1]                                                                             ; out              ;
+; |shiyan15|boxing[0]                                                                                   ; |shiyan15|boxing[0]                                                                             ; out              ;
+; |shiyan15|clk                                                                                         ; |shiyan15|clk                                                                                   ; out              ;
+; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ram_block1a0   ; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|q_a[0]   ; portadataout0    ;
+; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ram_block1a1   ; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|q_a[1]   ; portadataout0    ;
+; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ram_block1a2   ; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|q_a[2]   ; portadataout0    ;
+; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ram_block1a3   ; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|q_a[3]   ; portadataout0    ;
+; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ram_block1a4   ; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|q_a[4]   ; portadataout0    ;
+; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ram_block1a5   ; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|q_a[5]   ; portadataout0    ;
+; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ram_block1a6   ; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|q_a[6]   ; portadataout0    ;
+; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ram_block1a7   ; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|q_a[7]   ; portadataout0    ;
+; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ram_block1a8   ; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|q_a[8]   ; portadataout0    ;
+; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|ram_block1a9   ; |shiyan15|lpm_rom3:inst|altsyncram:altsyncram_component|altsyncram_gu71:auto_generated|q_a[9]   ; portadataout0    ;
+; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ram_block1a0 ; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|q_a[0] ; portadataout0    ;
+; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ram_block1a1 ; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|q_a[1] ; portadataout0    ;
+; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ram_block1a2 ; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|q_a[2] ; portadataout0    ;
+; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ram_block1a3 ; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|q_a[3] ; portadataout0    ;
+; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ram_block1a4 ; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|q_a[4] ; portadataout0    ;
+; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ram_block1a5 ; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|q_a[5] ; portadataout0    ;
+; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ram_block1a6 ; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|q_a[6] ; portadataout0    ;
+; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ram_block1a7 ; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|q_a[7] ; portadataout0    ;
+; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ram_block1a8 ; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|q_a[8] ; portadataout0    ;
+; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|ram_block1a9 ; |shiyan15|lpm_rom1:inst10|altsyncram:altsyncram_component|altsyncram_oi71:auto_generated|q_a[9] ; portadataout0    ;
+; |shiyan15|Verilog1:inst2|cnt[0]                                                                       ; |shiyan15|Verilog1:inst2|cnt[0]                                                                 ; regout           ;
+; |shiyan15|Verilog1:inst2|cnt~0                                                                        ; |shiyan15|Verilog1:inst2|cnt~0                                                                  ; out              ;
+; |shiyan15|Verilog1:inst2|cnt~1                                                                        ; |shiyan15|Verilog1:inst2|cnt~1                                                                  ; out              ;
+; |shiyan15|Verilog1:inst2|cnt~2                                                                        ; |shiyan15|Verilog1:inst2|cnt~2                                                                  ; out              ;
+; |shiyan15|Verilog1:inst2|cnt~3                                                                        ; |shiyan15|Verilog1:inst2|cnt~3                                                                  ; out              ;
+; |shiyan15|Verilog1:inst2|cnt~4                                                                        ; |shiyan15|Verilog1:inst2|cnt~4                                                                  ; out              ;
+; |shiyan15|Verilog1:inst2|cnt~5                                                                        ; |shiyan15|Verilog1:inst2|cnt~5                                                                  ; out              ;
+; |shiyan15|Verilog1:inst2|cnt~6                                                                        ; |shiyan15|Verilog1:inst2|cnt~6                                                                  ; out              ;
+; |shiyan15|Verilog1:inst2|cnt~7                                                                        ; |shiyan15|Verilog1:inst2|cnt~7                                                                  ; out              ;
+; |shiyan15|Verilog1:inst2|cnt~8                                                                        ; |shiyan15|Verilog1:inst2|cnt~8                                                                  ; out              ;
+; |shiyan15|Verilog1:inst2|cnt~9                                                                        ; |shiyan15|Verilog1:inst2|cnt~9                                                                  ; out              ;
+; |shiyan15|Verilog1:inst2|cnt[9]                                                                       ; |shiyan15|Verilog1:inst2|cnt[9]                                                                 ; regout           ;
+; |shiyan15|Verilog1:inst2|cnt[8]                                                                       ; |shiyan15|Verilog1:inst2|cnt[8]                                                                 ; regout           ;
+; |shiyan15|Verilog1:inst2|cnt[7]                                                                       ; |shiyan15|Verilog1:inst2|cnt[7]                                                                 ; regout           ;
+; |shiyan15|Verilog1:inst2|cnt[6]                                                                       ; |shiyan15|Verilog1:inst2|cnt[6]                                                                 ; regout           ;
+; |shiyan15|Verilog1:inst2|cnt[5]                                                                       ; |shiyan15|Verilog1:inst2|cnt[5]                                                                 ; regout           ;
+; |shiyan15|Verilog1:inst2|cnt[4]                                                                       ; |shiyan15|Verilog1:inst2|cnt[4]                                                                 ; regout           ;
+; |shiyan15|Verilog1:inst2|cnt[3]                                                                       ; |shiyan15|Verilog1:inst2|cnt[3]                                                                 ; regout           ;
+; |shiyan15|Verilog1:inst2|cnt[2]                                                                       ; |shiyan15|Verilog1:inst2|cnt[2]                                                                 ; regout           ;
+; |shiyan15|Verilog1:inst2|cnt[1]                                                                       ; |shiyan15|Verilog1:inst2|cnt[1]                                                                 ; regout           ;
+; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ram_block1a0  ; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|q_a[0]  ; portadataout0    ;
+; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ram_block1a1  ; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|q_a[1]  ; portadataout0    ;
+; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ram_block1a2  ; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|q_a[2]  ; portadataout0    ;
+; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ram_block1a3  ; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|q_a[3]  ; portadataout0    ;
+; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ram_block1a4  ; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|q_a[4]  ; portadataout0    ;
+; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ram_block1a5  ; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|q_a[5]  ; portadataout0    ;
+; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ram_block1a6  ; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|q_a[6]  ; portadataout0    ;
+; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ram_block1a7  ; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|q_a[7]  ; portadataout0    ;
+; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ram_block1a8  ; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|q_a[8]  ; portadataout0    ;
+; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|ram_block1a9  ; |shiyan15|lpm_rom2:inst7|altsyncram:altsyncram_component|altsyncram_tu71:auto_generated|q_a[9]  ; portadataout0    ;
+; |shiyan15|Verilog3:inst8|q~0                                                                          ; |shiyan15|Verilog3:inst8|q~0                                                                    ; out              ;
+; |shiyan15|Verilog3:inst8|q~1                                                                          ; |shiyan15|Verilog3:inst8|q~1                                                                    ; out              ;
+; |shiyan15|Verilog3:inst8|q~2                                                                          ; |shiyan15|Verilog3:inst8|q~2                                                                    ; out              ;
+; |shiyan15|Verilog3:inst8|q~3                                                                          ; |shiyan15|Verilog3:inst8|q~3                                                                    ; out              ;
+; |shiyan15|Verilog3:inst8|q~4                                                                          ; |shiyan15|Verilog3:inst8|q~4                                                                    ; out              ;
+; |shiyan15|Verilog3:inst8|q~5                                                                          ; |shiyan15|Verilog3:inst8|q~5                                                                    ; out              ;
+; |shiyan15|Verilog3:inst8|q~6                                                                          ; |shiyan15|Verilog3:inst8|q~6                                                                    ; out              ;
+; |shiyan15|Verilog3:inst8|q~7                                                                          ; |shiyan15|Verilog3:inst8|q~7                                                                    ; out              ;
+; |shiyan15|Verilog3:inst8|q~8                                                                          ; |shiyan15|Verilog3:inst8|q~8                                                                    ; out              ;
+; |shiyan15|Verilog3:inst8|q~9                                                                          ; |shiyan15|Verilog3:inst8|q~9                                                                    ; out              ;
+; |shiyan15|Verilog3:inst8|q[9]                                                                         ; |shiyan15|Verilog3:inst8|q[9]                                                                   ; out              ;
+; |shiyan15|Verilog3:inst8|q[8]                                                                         ; |shiyan15|Verilog3:inst8|q[8]                                                                   ; out              ;
+; |shiyan15|Verilog3:inst8|q[7]                                                                         ; |shiyan15|Verilog3:inst8|q[7]                                                                   ; out              ;
+; |shiyan15|Verilog3:inst8|q[6]                                                                         ; |shiyan15|Verilog3:inst8|q[6]                                                                   ; out              ;
+; |shiyan15|Verilog3:inst8|q[5]                                                                         ; |shiyan15|Verilog3:inst8|q[5]                                                                   ; out              ;
+; |shiyan15|Verilog3:inst8|q[4]                                                                         ; |shiyan15|Verilog3:inst8|q[4]                                                                   ; out              ;
+; |shiyan15|Verilog3:inst8|q[3]                                                                         ; |shiyan15|Verilog3:inst8|q[3]                                                                   ; out              ;
+; |shiyan15|Verilog3:inst8|q[2]                                                                         ; |shiyan15|Verilog3:inst8|q[2]                                                                   ; out              ;
+; |shiyan15|Verilog3:inst8|q[1]                                                                         ; |shiyan15|Verilog3:inst8|q[1]                                                                   ; out              ;
+; |shiyan15|Verilog3:inst8|q[0]                                                                         ; |shiyan15|Verilog3:inst8|q[0]                                                                   ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~1                                                                     ; |shiyan15|Verilog2:inst4|chengq~1                                                               ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~2                                                                     ; |shiyan15|Verilog2:inst4|chengq~2                                                               ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~3                                                                     ; |shiyan15|Verilog2:inst4|chengq~3                                                               ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~4                                                                     ; |shiyan15|Verilog2:inst4|chengq~4                                                               ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~5                                                                     ; |shiyan15|Verilog2:inst4|chengq~5                                                               ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~6                                                                     ; |shiyan15|Verilog2:inst4|chengq~6                                                               ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~7                                                                     ; |shiyan15|Verilog2:inst4|chengq~7                                                               ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~10                                                                    ; |shiyan15|Verilog2:inst4|chengq~10                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~11                                                                    ; |shiyan15|Verilog2:inst4|chengq~11                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~12                                                                    ; |shiyan15|Verilog2:inst4|chengq~12                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~13                                                                    ; |shiyan15|Verilog2:inst4|chengq~13                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~14                                                                    ; |shiyan15|Verilog2:inst4|chengq~14                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~15                                                                    ; |shiyan15|Verilog2:inst4|chengq~15                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~16                                                                    ; |shiyan15|Verilog2:inst4|chengq~16                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq[9]                                                                    ; |shiyan15|Verilog2:inst4|chengq[9]                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq[8]                                                                    ; |shiyan15|Verilog2:inst4|chengq[8]                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq[7]                                                                    ; |shiyan15|Verilog2:inst4|chengq[7]                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq[6]                                                                    ; |shiyan15|Verilog2:inst4|chengq[6]                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq[5]                                                                    ; |shiyan15|Verilog2:inst4|chengq[5]                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq[4]                                                                    ; |shiyan15|Verilog2:inst4|chengq[4]                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq[3]                                                                    ; |shiyan15|Verilog2:inst4|chengq[3]                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq[2]                                                                    ; |shiyan15|Verilog2:inst4|chengq[2]                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq[1]                                                                    ; |shiyan15|Verilog2:inst4|chengq[1]                                                              ; out              ;
+; |shiyan15|Verilog2:inst4|chengq[0]                                                                    ; |shiyan15|Verilog2:inst4|chengq[0]                                                              ; out              ;
+; |shiyan15|Verilog1:inst2|LessThan0~0                                                                  ; |shiyan15|Verilog1:inst2|LessThan0~0                                                            ; out0             ;
+; |shiyan15|Verilog1:inst2|LessThan0~1                                                                  ; |shiyan15|Verilog1:inst2|LessThan0~1                                                            ; out0             ;
+; |shiyan15|Verilog1:inst2|LessThan0~2                                                                  ; |shiyan15|Verilog1:inst2|LessThan0~2                                                            ; out0             ;
+; |shiyan15|Verilog1:inst2|LessThan0~3                                                                  ; |shiyan15|Verilog1:inst2|LessThan0~3                                                            ; out0             ;
+; |shiyan15|Verilog1:inst2|LessThan0~4                                                                  ; |shiyan15|Verilog1:inst2|LessThan0~4                                                            ; out0             ;
+; |shiyan15|Verilog1:inst2|LessThan0~5                                                                  ; |shiyan15|Verilog1:inst2|LessThan0~5                                                            ; out0             ;
+; |shiyan15|Verilog1:inst2|LessThan0~6                                                                  ; |shiyan15|Verilog1:inst2|LessThan0~6                                                            ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~0                                                                       ; |shiyan15|Verilog1:inst2|Add1~0                                                                 ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~1                                                                       ; |shiyan15|Verilog1:inst2|Add1~1                                                                 ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~2                                                                       ; |shiyan15|Verilog1:inst2|Add1~2                                                                 ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~3                                                                       ; |shiyan15|Verilog1:inst2|Add1~3                                                                 ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~4                                                                       ; |shiyan15|Verilog1:inst2|Add1~4                                                                 ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~5                                                                       ; |shiyan15|Verilog1:inst2|Add1~5                                                                 ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~6                                                                       ; |shiyan15|Verilog1:inst2|Add1~6                                                                 ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~7                                                                       ; |shiyan15|Verilog1:inst2|Add1~7                                                                 ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~8                                                                       ; |shiyan15|Verilog1:inst2|Add1~8                                                                 ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~9                                                                       ; |shiyan15|Verilog1:inst2|Add1~9                                                                 ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~10                                                                      ; |shiyan15|Verilog1:inst2|Add1~10                                                                ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~11                                                                      ; |shiyan15|Verilog1:inst2|Add1~11                                                                ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~12                                                                      ; |shiyan15|Verilog1:inst2|Add1~12                                                                ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~13                                                                      ; |shiyan15|Verilog1:inst2|Add1~13                                                                ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~14                                                                      ; |shiyan15|Verilog1:inst2|Add1~14                                                                ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~15                                                                      ; |shiyan15|Verilog1:inst2|Add1~15                                                                ; out0             ;
+; |shiyan15|Verilog1:inst2|Add1~16                                                                      ; |shiyan15|Verilog1:inst2|Add1~16                                                                ; out0             ;
+; |shiyan15|Verilog3:inst8|Equal0~0                                                                     ; |shiyan15|Verilog3:inst8|Equal0~0                                                               ; out0             ;
+; |shiyan15|Verilog3:inst8|Equal1~0                                                                     ; |shiyan15|Verilog3:inst8|Equal1~0                                                               ; out0             ;
++-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                 ;
++-----------------------------------+-----------------------------------+------------------+
+; Node Name                         ; Output Port Name                  ; Output Port Type ;
++-----------------------------------+-----------------------------------+------------------+
+; |shiyan15|rst                     ; |shiyan15|rst                     ; out              ;
+; |shiyan15|fenping[2]              ; |shiyan15|fenping[2]              ; out              ;
+; |shiyan15|fenping[1]              ; |shiyan15|fenping[1]              ; out              ;
+; |shiyan15|fenping[0]              ; |shiyan15|fenping[0]              ; out              ;
+; |shiyan15|fudu[1]                 ; |shiyan15|fudu[1]                 ; out              ;
+; |shiyan15|fudu[0]                 ; |shiyan15|fudu[0]                 ; out              ;
+; |shiyan15|Verilog1:inst2|i[2]     ; |shiyan15|Verilog1:inst2|i[2]     ; regout           ;
+; |shiyan15|Verilog1:inst2|i~0      ; |shiyan15|Verilog1:inst2|i~0      ; out              ;
+; |shiyan15|Verilog1:inst2|i~1      ; |shiyan15|Verilog1:inst2|i~1      ; out              ;
+; |shiyan15|Verilog1:inst2|i~2      ; |shiyan15|Verilog1:inst2|i~2      ; out              ;
+; |shiyan15|Verilog1:inst2|i[0]     ; |shiyan15|Verilog1:inst2|i[0]     ; regout           ;
+; |shiyan15|Verilog1:inst2|i[1]     ; |shiyan15|Verilog1:inst2|i[1]     ; regout           ;
+; |shiyan15|Verilog2:inst4|chengq~0 ; |shiyan15|Verilog2:inst4|chengq~0 ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~8 ; |shiyan15|Verilog2:inst4|chengq~8 ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~9 ; |shiyan15|Verilog2:inst4|chengq~9 ; out              ;
+; |shiyan15|Verilog1:inst2|Add0~0   ; |shiyan15|Verilog1:inst2|Add0~0   ; out0             ;
+; |shiyan15|Verilog1:inst2|Add0~1   ; |shiyan15|Verilog1:inst2|Add0~1   ; out0             ;
+; |shiyan15|Verilog1:inst2|Add0~2   ; |shiyan15|Verilog1:inst2|Add0~2   ; out0             ;
+; |shiyan15|Verilog1:inst2|Equal0~0 ; |shiyan15|Verilog1:inst2|Equal0~0 ; out0             ;
+; |shiyan15|Verilog1:inst2|Equal0~1 ; |shiyan15|Verilog1:inst2|Equal0~1 ; out0             ;
+; |shiyan15|Verilog1:inst2|Equal0~2 ; |shiyan15|Verilog1:inst2|Equal0~2 ; out0             ;
+; |shiyan15|Verilog1:inst2|Equal0~3 ; |shiyan15|Verilog1:inst2|Equal0~3 ; out0             ;
+; |shiyan15|Verilog2:inst4|Equal0~0 ; |shiyan15|Verilog2:inst4|Equal0~0 ; out0             ;
+; |shiyan15|Verilog2:inst4|Equal1~0 ; |shiyan15|Verilog2:inst4|Equal1~0 ; out0             ;
+; |shiyan15|Verilog2:inst4|Equal2~0 ; |shiyan15|Verilog2:inst4|Equal2~0 ; out0             ;
++-----------------------------------+-----------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                 ;
++-----------------------------------+-----------------------------------+------------------+
+; Node Name                         ; Output Port Name                  ; Output Port Type ;
++-----------------------------------+-----------------------------------+------------------+
+; |shiyan15|rst                     ; |shiyan15|rst                     ; out              ;
+; |shiyan15|fenping[2]              ; |shiyan15|fenping[2]              ; out              ;
+; |shiyan15|fenping[1]              ; |shiyan15|fenping[1]              ; out              ;
+; |shiyan15|fenping[0]              ; |shiyan15|fenping[0]              ; out              ;
+; |shiyan15|fudu[1]                 ; |shiyan15|fudu[1]                 ; out              ;
+; |shiyan15|fudu[0]                 ; |shiyan15|fudu[0]                 ; out              ;
+; |shiyan15|Verilog1:inst2|i[2]     ; |shiyan15|Verilog1:inst2|i[2]     ; regout           ;
+; |shiyan15|Verilog1:inst2|i~0      ; |shiyan15|Verilog1:inst2|i~0      ; out              ;
+; |shiyan15|Verilog1:inst2|i~1      ; |shiyan15|Verilog1:inst2|i~1      ; out              ;
+; |shiyan15|Verilog1:inst2|i~2      ; |shiyan15|Verilog1:inst2|i~2      ; out              ;
+; |shiyan15|Verilog1:inst2|i[0]     ; |shiyan15|Verilog1:inst2|i[0]     ; regout           ;
+; |shiyan15|Verilog1:inst2|i[1]     ; |shiyan15|Verilog1:inst2|i[1]     ; regout           ;
+; |shiyan15|Verilog2:inst4|chengq~0 ; |shiyan15|Verilog2:inst4|chengq~0 ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~8 ; |shiyan15|Verilog2:inst4|chengq~8 ; out              ;
+; |shiyan15|Verilog2:inst4|chengq~9 ; |shiyan15|Verilog2:inst4|chengq~9 ; out              ;
+; |shiyan15|Verilog1:inst2|Add0~0   ; |shiyan15|Verilog1:inst2|Add0~0   ; out0             ;
+; |shiyan15|Verilog1:inst2|Add0~1   ; |shiyan15|Verilog1:inst2|Add0~1   ; out0             ;
+; |shiyan15|Verilog1:inst2|Add0~2   ; |shiyan15|Verilog1:inst2|Add0~2   ; out0             ;
+; |shiyan15|Verilog1:inst2|Equal0~0 ; |shiyan15|Verilog1:inst2|Equal0~0 ; out0             ;
+; |shiyan15|Verilog1:inst2|Equal0~1 ; |shiyan15|Verilog1:inst2|Equal0~1 ; out0             ;
+; |shiyan15|Verilog1:inst2|Equal0~2 ; |shiyan15|Verilog1:inst2|Equal0~2 ; out0             ;
+; |shiyan15|Verilog1:inst2|Equal0~3 ; |shiyan15|Verilog1:inst2|Equal0~3 ; out0             ;
+; |shiyan15|Verilog2:inst4|Equal0~0 ; |shiyan15|Verilog2:inst4|Equal0~0 ; out0             ;
+; |shiyan15|Verilog2:inst4|Equal1~0 ; |shiyan15|Verilog2:inst4|Equal1~0 ; out0             ;
+; |shiyan15|Verilog2:inst4|Equal2~0 ; |shiyan15|Verilog2:inst4|Equal2~0 ; out0             ;
++-----------------------------------+-----------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Full Version
+    Info: Processing started: Fri Dec 24 16:05:13 2021
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off shiyan15 -c shiyan15
+Info: Using vector source file "C:/Users/214/Desktop/shiyan15/shiyan15.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of shiyan15.vwf called shiyan15.sim_ori.vwf has been created in the db folder
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      84.18 %
+Info: Number of transitions in simulation is 133067
+Info: Vector file shiyan15.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 152 megabytes
+    Info: Processing ended: Fri Dec 24 16:05:14 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
+
+
