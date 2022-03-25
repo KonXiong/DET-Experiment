@@ -1,0 +1,26 @@
+|Counter
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[5] <= count[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => count[5]~reg0.CLK
+clk => count[4]~reg0.CLK
+clk => count[3]~reg0.CLK
+clk => count[2]~reg0.CLK
+clk => count[1]~reg0.CLK
+reset => count~24.OUTPUTSELECT
+reset => count~23.OUTPUTSELECT
+reset => count~22.OUTPUTSELECT
+reset => count~21.OUTPUTSELECT
+reset => count~20.OUTPUTSELECT
+mode[1] => Decoder0.IN1
+mode[1] => Add0.IN2
+mode[2] => Decoder0.IN0
+con => count~19.OUTPUTSELECT
+con => count~18.OUTPUTSELECT
+con => count~17.OUTPUTSELECT
+con => count~16.OUTPUTSELECT
+con => count~15.OUTPUTSELECT
+
+

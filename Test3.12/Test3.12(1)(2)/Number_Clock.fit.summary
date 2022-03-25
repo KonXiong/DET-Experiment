@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Nov 26 16:52:43 2021
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Full Version
+Revision Name : Number_Clock
+Top-level Entity Name : Number_Clock
+Family : Cyclone II
+Device : EP2C5T144C8
+Timing Models : Final
+Total logic elements : 550 / 4,608 ( 12 % )
+    Total combinational functions : 549 / 4,608 ( 12 % )
+    Dedicated logic registers : 67 / 4,608 ( 1 % )
+Total registers : 67
+Total pins : 37 / 89 ( 42 % )
+Total virtual pins : 0
+Total memory bits : 0 / 119,808 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

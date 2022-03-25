@@ -1,0 +1,6 @@
+module control(con,x);
+input con,X;
+output Y;
+
+assign Y = con ? X : 0;
+endmodule

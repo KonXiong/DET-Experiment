@@ -1,0 +1,14 @@
+|Decoder
+A[0] => Decoder0.IN2
+A[1] => Decoder0.IN1
+A[2] => Decoder0.IN0
+Y[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y[7] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

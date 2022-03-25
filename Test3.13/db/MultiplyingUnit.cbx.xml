@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="MultiplyingUnit">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiplyingUnit|lpm_rom0:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ipa1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiplyingUnit|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_ipa1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|lpm_mux:Mux0" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiplyingUnit|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux2" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiplyingUnit|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_ipa1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|lpm_mux:Mux1" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiplyingUnit|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_ipa1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|lpm_mux:Mux3" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiplyingUnit|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux1" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiplyingUnit|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux3" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiplyingUnit|lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_ipa1:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|lpm_mux:Mux2" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MultiplyingUnit|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux0" CBX_FILE_NAME="mux_aqc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,7 @@
+|Choice
+A => F~0.DATAB
+B => F~0.DATAA
+C => F~0.OUTPUTSELECT
+F <= F~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

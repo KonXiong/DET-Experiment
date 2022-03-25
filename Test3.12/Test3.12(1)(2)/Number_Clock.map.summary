@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Nov 26 16:52:41 2021
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Full Version
+Revision Name : Number_Clock
+Top-level Entity Name : Number_Clock
+Family : Cyclone II
+Total logic elements : 550
+    Total combinational functions : 549
+    Dedicated logic registers : 67
+Total registers : 67
+Total pins : 37
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

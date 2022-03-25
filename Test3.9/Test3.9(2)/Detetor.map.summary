@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Nov 19 13:18:58 2021
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : Detetor
+Top-level Entity Name : Detetor
+Family : Cyclone II
+Total logic elements : 5
+    Total combinational functions : 1
+    Dedicated logic registers : 5
+Total registers : 5
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

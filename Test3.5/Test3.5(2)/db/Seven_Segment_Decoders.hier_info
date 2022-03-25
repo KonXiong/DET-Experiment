@@ -1,0 +1,45 @@
+|Seven_Segment_Decoders
+EN => Yg~1.IN0
+EN => Yf~4.IN0
+EN => Ye~1.IN0
+EN => Yd~6.IN0
+EN => Yc~4.IN0
+EN => Yb~6.IN0
+EN => Ya~7.IN1
+A0 => Yf~2.IN1
+A0 => Yf~0.IN1
+A0 => Ye~0.IN0
+A0 => Yd~4.IN0
+A0 => Yd~0.IN0
+A0 => Yb~4.IN0
+A0 => Ya~2.IN1
+A0 => Yd~1.IN0
+A0 => Yc~2.IN0
+A0 => Yb~1.IN0
+A0 => Ya~5.IN1
+A1 => Yf~2.IN0
+A1 => Yc~1.IN1
+A1 => Yb~0.IN1
+A1 => Ya~3.IN1
+A1 => Yd~3.IN1
+A1 => Yb~3.IN1
+A1 => Ya~1.IN1
+A2 => Yc~0.IN1
+A2 => Yb~3.IN0
+A2 => Yb~0.IN0
+A2 => Ya~5.IN0
+A2 => Yd~3.IN0
+A2 => Yc~1.IN0
+A2 => Ya~0.IN1
+A3 => Yc~0.IN0
+A3 => Ya~3.IN0
+A3 => Ya~0.IN0
+Ya <= Ya~7.DB_MAX_OUTPUT_PORT_TYPE
+Yb <= Yb~6.DB_MAX_OUTPUT_PORT_TYPE
+Yc <= Yc~4.DB_MAX_OUTPUT_PORT_TYPE
+Yd <= Yd~6.DB_MAX_OUTPUT_PORT_TYPE
+Ye <= Ye~1.DB_MAX_OUTPUT_PORT_TYPE
+Yf <= Yf~4.DB_MAX_OUTPUT_PORT_TYPE
+Yg <= Yg~1.DB_MAX_OUTPUT_PORT_TYPE
+
+

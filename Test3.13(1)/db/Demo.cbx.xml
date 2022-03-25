@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Demo">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|lfun:inst|altsyncram:altsyncram_component|altsyncram_pi91:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|lpm_mux:Mux2" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|translate1:inst1|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_05m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|lfun:inst|altsyncram:altsyncram_component|altsyncram_pi91:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|lpm_mux:Mux3" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux0" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|translate1:inst2|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_05m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|translate2:inst6|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|lfun:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_pi91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|lfun:inst|altsyncram:altsyncram_component|altsyncram_pi91:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|lpm_mux:Mux0" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux1" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|translate2:inst6|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_4dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|translate2:inst6|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_45m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|lfun:inst|altsyncram:altsyncram_component|altsyncram_pi91:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr|lpm_mux:Mux1" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux2" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|translate1:inst1|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_tcm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|translate2:inst6|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_45m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|sld_hub:sld_hub_inst|sld_rom_sr:hub_info_reg|lpm_mux:Mux3" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Demo|translate1:inst2|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_tcm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

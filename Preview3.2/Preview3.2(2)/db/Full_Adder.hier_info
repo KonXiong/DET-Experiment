@@ -1,0 +1,21 @@
+|Full_Adder
+A => C1~0.IN0
+A => S~2.IN1
+A => S~0.IN1
+A => S~5.IN1
+A => S~8.IN1
+B => C1~1.IN0
+B => S~8.IN0
+B => S~2.IN0
+B => S~0.IN0
+B => S~5.IN0
+C => C1~1.IN1
+C => C1~0.IN1
+C => S~6.IN0
+C => S~3.IN0
+C => S~1.IN1
+C => S~9.IN0
+S <= S~10.DB_MAX_OUTPUT_PORT_TYPE
+C1 <= C1~3.DB_MAX_OUTPUT_PORT_TYPE
+
+

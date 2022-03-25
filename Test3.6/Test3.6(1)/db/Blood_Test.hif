@@ -1,0 +1,62 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+11
+910
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+74153
+# storage
+db|Blood_Test.(1).cnf
+db|Blood_Test.(1).cnf
+# case_insensitive
+# source_file
+d:|altera|90sp2|quartus|libraries|others|maxplus2|74153.bdf
+36cd3b3c347cff8c6b0555687a75ad
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74153:inst
+}
+# macro_sequence
+
+# end
+# entity
+Blood_Test
+# storage
+db|Blood_Test.(0).cnf
+db|Blood_Test.(0).cnf
+# case_insensitive
+# source_file
+Blood_Test.bdf
+3bcb6f7cb729dcd6417108fdbac2e76
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,5 @@
+
+State Machine - |Number_Clock|second:inst|cnt
+Name cnt.00111011 
+cnt.00000000 0 
+cnt.00111011 1 
